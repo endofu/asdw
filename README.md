@@ -7,10 +7,10 @@ This repository contains the core prompts, rules, and logic for an AI-assisted s
 1.  **Clone this repository into your project:**
 
     ```bash
-    git clone [https://github.com/endofu/asdw.git](https://github.com/endofu/asdw.git) .agent_workflow_repo
+    git clone [https://github.com/endofu/asdw.git](https://github.com/endofu/asdw.git) .asdw
     ```
 
-    _Note: It's recommended to add `.agent_workflow_repo/` to your project's `.gitignore` file if it is placed inside the code repository._
+    _Note: It's recommended to add `.asdw/` to your project's `.gitignore` file if it is placed inside the code repository._
 
 2.  **Create your project's `WORKFLOW.md`:**
     Create a `WORKFLOW.md` file in the root of your project to define which rules and tools your project uses. Use the `@import()` directive to include rules from this repository.
